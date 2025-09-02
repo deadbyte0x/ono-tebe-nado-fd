@@ -1,1 +1,224 @@
-/* место для вашего кода */
+body {
+  background-color: white;
+}
+
+.header {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  height: 293px;
+  padding: 92px 50px 96px 50px;
+}
+
+.logo-black {
+  display: grid;
+  width: 129.11196899414062px;
+  height: 104.6517562866211px;
+}
+
+.header-menu {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  text-underline-offset: 0.25em;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 31px;
+  list-style: circle;
+}
+
+.header__links-list-main-page {
+  list-style: none;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  max-width: 243px;
+  justify-self: end;
+  text-underline-offset: 0.2em;
+}
+.cover {
+  position: relative;
+  background-image: url(/images/cover.jpg);
+  min-height: 757px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  z-index: 5;
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.cover__title {
+  position: relative;
+  z-index: 10;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  color: white;
+  padding: 165px 50px 207px 50px;
+}
+
+.aligned-text_left {
+  display: block;
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+  display: block;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+}
+
+.cover-description {
+  color: white;
+  position: relative;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  z-index: 10;
+  word-spacing: 20px;
+  padding: 106px 50px 50px 50px;
+}
+
+.description-button {
+  margin-left: 70px;
+  background-color: transparent;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 1px;
+  border-color: white;
+  padding: 12px 32px 11px 31px;
+}
+
+.lots-header {
+  color: black;
+  margin-bottom: 27px;
+  margin-left: 40px;
+  margin-bottom: 27px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lots-card {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.lots__card-list-item {
+  min-height: 596px;
+  width: 334px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-link {
+  height: 100%;
+ display: block;
+  text-decoration: none;
+}
+
+.card-text {
+    z-index: 10;
+  color: white;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+    padding: 48px 40px 48px 40px;
+
+}
+
+.lots {
+    padding: 180px 24px 120px 24px;
+}
+
+.card-header {
+    z-index: 10;
+    color: white;
+    font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-offset: 0%;
+text-decoration-thickness: 0%;
+
+}
+
+.lots-more {
+    font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 40px;
+text-underline-offset: 0.25em;
+}

@@ -73,7 +73,7 @@ body {
   letter-spacing: 30px;
   text-transform: uppercase;
   color: white;
-  padding: 165px 50px 207px 50px;
+  padding: 165px 50px 106px 50px;
 }
 
 .aligned-text_left {
@@ -103,7 +103,7 @@ body {
   text-transform: uppercase;
   z-index: 10;
   word-spacing: 20px;
-  padding: 106px 50px 50px 50px;
+  padding: 0px 50px 50px 50px;
 }
 
 .description-button {
@@ -150,12 +150,12 @@ body {
 
 .card-link {
   height: 100%;
- display: block;
+  display: block;
   text-decoration: none;
 }
 
 .card-text {
-    z-index: 10;
+  z-index: 10;
   color: white;
   font-family: Raleway;
   font-weight: 400;
@@ -164,7 +164,6 @@ body {
   leading-trim: NONE;
   line-height: 120%;
   letter-spacing: 0%;
-  
 }
 
 .card_type_film {
@@ -180,72 +179,66 @@ body {
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: relative;
-    justify-content: space-between;
-    padding: 48px 40px 48px 40px;
-
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  justify-content: space-between;
+  padding: 48px 40px 48px 40px;
 }
 
 .lots {
-    padding: 180px 24px 120px 24px;
+  padding: 180px 24px 120px 24px;
 }
 
 .card-header {
-    z-index: 10;
-    color: white;
-    font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 22px;
-leading-trim: NONE;
-line-height: 120%;
-letter-spacing: 0%;
-text-transform: uppercase;
-text-decoration: underline;
-text-decoration-style: solid;
-text-decoration-offset: 0%;
-text-decoration-thickness: 0%;
-flex-wrap: wrap;
-
+  z-index: 10;
+  color: white;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: 0%;
+  text-decoration-thickness: 0%;
+  flex-wrap: wrap;
 }
 
 .lots-more {
-    font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;
-margin-left: 40px;
-text-underline-offset: 0.25em;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-left: 40px;
+  text-underline-offset: 0.25em;
 }
 
 .about {
-display: grid;
-grid-template-columns: auto 1fr;
-padding: 0px 24px 180px 24px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 0px 24px 180px 24px;
 }
 
 .left-column {
-min-height: 596px;
+  min-height: 596px;
   width: 334px;
-  
-
 }
 
 .right-column {
-  
 }
 
 .logo-size {
   min-height: 114px;
   width: 148px;
-  margin:64px 45.52px 62px 46.48px;
-
+  margin: 64px 45.52px 62px 46.48px;
 }
 
 .about-logo {
@@ -254,21 +247,19 @@ min-height: 596px;
   margin-top: 35px;
   background-color: black;
   border-radius: 200px;
-  margin-left: 47px
-  
+  margin-left: 47px;
 }
 
 .about-header {
   font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 40px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: uppercase;
-margin-bottom:100px;
-
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 .about-content {
@@ -278,13 +269,12 @@ margin-bottom:100px;
 
 .about-text {
   font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 24px;
-letter-spacing: 0%;
-
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
 }
 
 .second-text {
@@ -305,28 +295,27 @@ footer {
 .footer__menu-list {
   display: flex;
   list-style: none;
-   font-family: Raleway;
-   flex-direction: column;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Raleway;
+  flex-direction: column;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
   white-space: nowrap;
   text-underline-offset: 0.2em;
   gap: 2px;
-
 }
 
 .footer__social-list {
- display: flex;
- justify-content: center;
- gap: 48px;
+  display: flex;
+  gap: 48px;
   margin: 0;
- border: 0;
- padding: 0;
+  border: 0;
+  padding: 0;
+  justify-self: end;
 }
 
 .footer__social-youtube {
@@ -342,4 +331,12 @@ text-align: center;
 .footer__social-pinterest {
   min-height: 48px;
   width: 48px;
+}
+
+.center-word {
+  letter-spacing: 0;
+}
+
+.right-word {
+  letter-spacing: 0;
 }

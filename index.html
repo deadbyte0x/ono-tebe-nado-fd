@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="../fonts/fonts.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header-menu">
         <ul class="header__links-list">
-          <li class="header__links-list-main-page">главная</li>
-          <li class="header__links-list-watch-lots">
+          <li class="header__links-list-item header__links-list-special-style">
+            <a class="nav-underline" href="#0">главная</a>
+          </li>
+          <li class="header__links-list-item">
             <a href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-about"><a href="#0">об аукционе</a></li>
+          <li class="header__links-list-item"><a href="#0">об аукционе</a></li>
         </ul>
       </nav>
       <div class="logo-black">
-        <a href="#0"><img src="/images/logo-black.svg" /></a>
+        <a href="#0"
+          ><img src="./images/logo-black.svg" alt="Черный логотип"
+        /></a>
       </div>
-      <menu class="address"
-        ><a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address>наб. Принсенграхт 263- 265, Амстердам</address></menu
-      >
+      <div class="contacts">
+        <address class="address">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class="ad">наб. Принсенграхт 263- 265, Амстердам</p>
+        </address>
+      </div>
     </header>
     <main>
       <section class="cover">
@@ -42,10 +48,12 @@
           >
         </h1>
         <div class="cover-description">
-          <span class="description-text"
-            >Аукцион вещей, в которые никто не верил</span
-          >
-          <button class="description-button">сделать ставку</button>
+          <p class="description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button type="submit" class="description-button">
+            сделать ставку
+          </button>
         </div>
       </section>
       <section class="lots">
@@ -55,9 +63,9 @@
             <a href="#0" class="card-link">
               <article class="card">
                 <div class="overlay"></div>
-                <h2 class="card-header">
+                <h3 class="card-header">
                   Фильм режиссёра, который бросил киношколу
-                </h2>
+                </h3>
                 <p class="card-text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -104,43 +112,47 @@
         <a href="#0" class="lots-more">посмотреть больше</a>
       </section>
       <section class="about">
-        <div class="left-column">
-          <div class="about-logo">
-            <img class="logo-size" src="/images/logo-white.svg" />
+        <div class="about__logo">
+          <div class="about-logo-circle">
+            <div class="about__logo-image"></div>
           </div>
         </div>
-        <div class="right-column">
-          <div class="about-content">
-            <h2 class="about-header">Об аукционе</h2>
-            <p class="about-text">
+        <div class="about__content">
+          <h1 class="about__title">Об аукционе</h1>
+          <div class="about__text">
+            <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
-              дорогого антиквариата. Наши лоты вообще не должны были попасть ни
-              на один аукцион. Потому что кому нужен дневник девочки-подростка
-              или картина, которую может нарисовать даже ребёнок? Кому нужны все
-              эти странные вещи, созданные любителями?
+              дорогого антиквариата. Наши лоты вообще не должны были
+              попасть&nbsp; ни на один аукцион. Потому что кому нужен дневник
+              девочки-подростка или картина, которую может нарисовать даже
+              ребёнок? Кому нужны все эти странные вещи, созданные любителями?
             </p>
-            <p class="about-text second-text">
+            <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
-              непонятые. Когда-то они казались просто неудачными. Но, несмотря
-              на критику, кажущуюся простоту или сложность, сейчас без этих
-              лотов невозможно представить современную культуру. Когда в эти
-              вещи не верил никто, продолжали верить их создатели. И сейчас эти
-              лоты стали культовыми.
+              непонятые. Когда-то они казались просто неудачными. Но,
+              несмотря&nbsp; на критику, кажущуюся простоту или сложность,
+              сейчас без этих лотов невозможно представить современную культуру.
+              Когда в эти вещи не верил никто, продолжали верить их создатели. И
+              сейчас эти лоты стали культовыми.
             </p>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <menu class="address address-align"
-        ><a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address>наб. Принсенграхт 263- 265, Амстердам</address></menu
-      >
+      <div class="contacts footer-contacts">
+        <address class="address">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263- 265, Амстердам</p>
+        </address>
+      </div>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-link_active">главная</li>
+          <li class="footer__menu-link_active">
+            <a class="nav-underline" href="#0">главная</a>
+          </li>
           <li class="footer__menu-link">
             <a href="#0">посмотреть лоты</a>
           </li>
@@ -149,15 +161,17 @@
           </li>
         </ul>
       </nav>
-      <menu class="footer__social-list">
-        <a href="#0" class="footer__social-youtube"
-          ><img src="/images/yt.svg"
+      <div class="footer__social-list">
+        <a href="#0" class="footer__social-icon"
+          ><img src="../images/yt.svg" alt="Иконка ютуба"
         /></a>
-        <a href="#0" class="footer__social-vk"><img src="/images/vk.svg" /></a>
-        <a href="#0" class="footer__social-pinterest"
-          ><img src="/images/pinterest.svg"
+        <a href="#0" class="footer__social-icon"
+          ><img src="../images/vk.svg" alt="Иконка Вконтакте"
         /></a>
-      </menu>
+        <a href="#0" class="footer__social-icon"
+          ><img src="../images/pinterest.svg" alt="Иконка пинтереста"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>

@@ -62,7 +62,7 @@ address {
 .cover {
     position: relative;
     background-image: url(../images/cover.jpg);
-    height: 757px;
+    min-height: 757px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -127,7 +127,7 @@ address {
     text-transform: uppercase;
     z-index: 10;
     word-spacing: 19px;
-    padding: 106px 50px 50px 50px;
+    padding: 106px 50px 48px 50px;
 }
 
 .description-button {
@@ -143,6 +143,7 @@ address {
     border-radius: 1px;
     border-color: white;
     padding: 12px 32px 9px 31px;
+    border-style: solid;
 }
 
 .lots-header {
@@ -255,7 +256,7 @@ address {
 }
 
 .about__logo-image {
-    background-image: url("../images/logo-white.svg");
+    background-image: url(../images/logo-white.svg);
     width: 148px;
     min-height: 114px;
     background-repeat: no-repeat;
